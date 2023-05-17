@@ -1,0 +1,13 @@
+.listItem {
+    transition: all 0.2s;
+    transform: scale(1);
+    margin-bottom: 8px;
+}
+
+.listItem:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.listItem:active{
+    transform: scale(1);
+}
