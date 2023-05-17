@@ -16,7 +16,7 @@ export const useDelete = (entity: string, onSucces: ((data: any) => void)) => {
 
     const handleDelete = (id: string) => (e: any) => {
         e.preventDefault(); e.stopPropagation()
-        const confirm = window.confirm("You are about to delete a user! Press OK to confirm.")
+        const confirm = window.confirm("You are about to delete an entry! Press OK to confirm.")
         if (confirm) mutateAsync(id)
     }
 
